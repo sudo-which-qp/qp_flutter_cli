@@ -1,6 +1,6 @@
 ## QP Flutter CLI
 
-<p>This is just a CLI that clones my flutter template for me to use when trying to build any flutter app. I was struggling with always trying to scaffold a flutter project setting up all I need in the project project which mostly eats up my productive time</p>
+<p>This is just a CLI that clones my flutter template for me to use when trying to build any flutter app. I was struggling with always trying to scaffold a flutter project setting up all I need in the project which mostly eats up my productive time</p>
 
 <p>So I decided to build this CLI using Go Lang to always clone the repo that I have already setup and made public. It clones it and run the flutter pub get command to make sure the project is just ready for me to start building apps or anything with flutter instead of trying to setup my folder structure.</p>
 
