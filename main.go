@@ -77,6 +77,7 @@ func updatePackageName(appDir string) error {
 		if err != nil {
 			return err
 		}
+
 		if !info.IsDir() && strings.HasSuffix(path, ".dart") {
 			content, err := os.ReadFile(path)
 			if err != nil {
