@@ -7,9 +7,12 @@
 <h4>To run this if you want to use this code for your flutter template:</h4>
 
 ## Simple steps
-1. go build -o qp_flutter
-2. mv qp_flutter /usr/local/bin/
-3. qp_flutter create test_app -p com.example.app
+1. make build "this will build the binary"
+2. make move "this will require sudo privileges"
+3. qp_flutter create test_app -p com.example.app "this will create a flutter app with my template"
+
+## Build Issues?
+1. make build-clean "this will clean the build binary"
 
 <p>You can change qp_flutter to what you want, the second step is for moving the build into your local bin folder, this is for Mac OS as of the moment</p>
 
